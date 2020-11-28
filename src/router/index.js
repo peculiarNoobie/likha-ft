@@ -1,14 +1,35 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Landing from '../views/Landing.vue'
+import Home from '../views/HomeDashboard.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    component: Landing,
-    meta: { title: 'Landing' }
+    component: Home,
+    children: [
+      {
+        path: 'calendar',
+        component: () =>import('@/components/Calendar.vue'),
+        meta: { title: 'Calendar' }
+      },
+      {
+        path: '',
+        component: () => import('@/views/HomeDashboard.vue'),
+        meta: { title: 'Home' }
+      },
+      {
+        path: 'eventPage',
+        component: () => import('@/components/EventPage.vue'),
+        meta: { title: 'Event Page' }
+      },
+      {
+        path: 'userPage',
+        component: () => import('@/components/UserPage.vue'),
+        meta: { title: 'User' }
+      }
+    ]
   },
 
 ]
