@@ -112,9 +112,15 @@ export default {
         
         li{
             margin: 0px 20px 0px;
+            min-width: 80px;
             #link-txt{
                 color: #120d31;
                 font-size: 18px;
+                &:hover{
+                    border-bottom: 4px solid #120d31;
+                    transition: 0.2s;
+                    font-weight: bold;
+                }
             }
         }
     }
