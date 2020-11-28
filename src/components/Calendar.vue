@@ -1,5 +1,11 @@
 <template>
-    <div align=center>
+    <div>
         <h1>calendar</h1>
     </div>
 </template>
+
+<script>
+export default {
+    name: 'calendar'
+}
+</script>

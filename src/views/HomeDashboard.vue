@@ -1,9 +1,11 @@
 <template>
-    <div class="home"> 
+    <div class="Home"> 
         <router-link to="/userPage">User Page</router-link>
         <router-link to="/calendar">Calendar</router-link>
         <router-link to="/eventPage">Event Page</router-link>
+        <router-view/>    
     </div>
+    
 </template>
 
 <script>
