@@ -10,14 +10,20 @@ const routes = [
     component: Home,
     children: [
       {
+        path: '',
+        component: () => import('@/components/Home.vue'),
+        meta: { title: 'Home' }
+      },
+      {
+        path: 'home',
+        component: () => import('@/components/Home.vue'),
+        meta: { title: 'Home' }
+      },
+
+      {
         path: 'calendar',
         component: () =>import('@/components/Calendar.vue'),
         meta: { title: 'Calendar' }
-      },
-      {
-        path: '',
-        component: () => import('@/views/HomeDashboard.vue'),
-        meta: { title: 'Home' }
       },
       {
         path: 'eventPage',
