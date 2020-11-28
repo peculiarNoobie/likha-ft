@@ -2,7 +2,7 @@
     <div class="landing">
         <LandingNavbar />
         <div class="welcome">
-            <p id="header">Welcome to Katha!</p>
+            <p id="header">Welcome to Likha!</p>
             <p id="body">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
