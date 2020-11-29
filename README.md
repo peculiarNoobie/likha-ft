@@ -20,11 +20,12 @@ npm run build
 npm run lint
 ```
 
+### If v-calendar is not a dependency
+```
+npm install v-calendar
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### If v-calendar is not a dependency
-'''
-npm install v-calendar
-'''
