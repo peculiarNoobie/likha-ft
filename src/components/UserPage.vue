@@ -11,36 +11,42 @@
         </div>
         <div class="right">
             <div class="followingArtist">
-                
-                <div class="container-1">
+                <h2>Following Artists</h2>
+                <div class="container">
                     <div class="top-1">
-                        <h2>Ben and Ben</h2>
+                        <h3>Ben and Ben</h3>
                     </div>
                     <img class="class-image" src="../assets/benandben.png" />
                 </div>
                 
-                <div class="container-2">
+                <div class="container">
                     <div class="top-2">
-                        <h2>Ang Huling El Bimbo</h2>
-                        <p>Popular</p>
+                        <h3>Eraser Heads</h3>
                     </div>
                     <img class="class-image" src="../assets/hulingelbimbo.png" />
                 </div>
                 
-                <div class="container-3">
+                <div class="container">
                     <div class="top-3">
-                        <h2>Art 1</h2>
+                        <h3>Joshua Garcia</h3>
                     </div>
                     <img class="class-image" src="../assets/Artist1.jpg" />
+                </div>
+
+                <div class="container">
+                    <div class="top-4">
+                        <h3>Autotelic</h3>
+                    </div>
+                    <img class="class-image" src="../assets/autotelic.jpg" />
                 </div>
 
             </div>
 
             <div class="post">
-                
+                <h2>My Posts</h2>
                 <div class="containr-1">
                     <div class="top-1">
-                        <h2>Art 1</h2>
+                        <h3>Art 1</h3>
                     </div>
                     <img class="class-image" src="../assets/Artist1.jpg" />
                 </div>
@@ -107,9 +113,36 @@ export default {
 
     .right{
         top:0;
-        padding: 0px 390px;
-            
+        margin-left: 25% ;
+        div.followingArtist {
+            position:relative;   
+            overflow-x: scroll;
+            white-space: nowrap;
 
 
+            .container {
+                display: inline-block;
+                width: 27.33%;
+                padding: 5px;
+
+                img{
+                    width: 300px;
+                    height: 200px;
+                    .class-image{
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+
+
+        }
+
+
+
+              
     }
+
+
+    
 </style>
