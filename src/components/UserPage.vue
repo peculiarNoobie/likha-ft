@@ -92,17 +92,23 @@ export default {
         height: 100%;
         top: 0;
         width: 20%;
-        left: 0;
-        background-color: black;
+        text-align: center;
+        left:20px;
+        .profile{
+            padding:3px;
+            
+            .profilePic{
+                border-radius: 100%;
+                padding:20px 0 20px;
+            }
+
+        }
     }
 
     .right{
-        margin-top: 80px;
-        position:absolute;
-        height: 100%;
         top:0;
-        margin-left: 20%;
-        background-color: black;
-        
+        padding: 0px 390px;
+
+
     }
 </style>
