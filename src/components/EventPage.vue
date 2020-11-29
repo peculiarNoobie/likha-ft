@@ -1,19 +1,26 @@
 <template>
-<div class="eventPage">    
+<!-- Events Page -->
+<div class="eventPage">
+
+    <!-- Stream Area -->
     <div class="liveStream">
+
+        <!-- Stream Side -->
         <div class="left">
             <div id="screen">
                 <img src="../assets/blackScreen.jpg" alt="sample screen" width="960" height="540">
             </div>
             <div class="details">
-                <div id="left"></div>
-                <div id="right"></div>
             </div>
         </div>
+
+        <!-- Chat Side -->
         <div class="liveChat">
-        <p>dont know how to apply live chaat</p>
+            <p>dont know how to apply live chaat</p>
         </div>
     </div>
+
+    <!-- Merch Area -->
     <div class="merch">
         <div class="title">
         <div class="item">
@@ -40,13 +47,24 @@
     
     .liveSteam{
         margin-bottom: 60px;
+        display: inline-block;
 
         .left{
-            float: left;
+            position: absolute;
+            width: 960px;
+            height: 540px;
+            left: 194px;
+            top: 176px;
         }
-        .right{
-            float: right;
+
+        .liveChat{
+            position: absolute;
+            width: 536px;
+            height: 540px;
+            left: 1256px;
+            top: 176px;
         }
+
     }
 
 </style>
