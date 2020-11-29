@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### If v-calendar is not a dependency
+'''
+npm install v-calendar
+'''
