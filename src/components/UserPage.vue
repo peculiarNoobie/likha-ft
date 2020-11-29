@@ -46,6 +46,14 @@
 
             <div class="post">
                 <h2>My Posts</h2>
+                <div class="post-box">
+                <input class="content" type="text" name="" placeholder="Type here">
+                <form action="/">
+                <label for="img">Select image:</label>
+                <input type="file" id="img" name="img" accept="image/*">
+                <input type="submit">
+                </form>
+                </div>
                 <div class="containr">
                     <div class="top-1">
                         <h3>Art 1</h3>
@@ -120,6 +128,30 @@ export default {
 
         .textfollowingart{
             padding: 30px;
+        }
+
+        .post-box{
+            display: flex;
+            background: #f4f7f6;
+            height: 100px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 0 2pt #120d31;
+            margin-right: 20px;
+            margin-bottom: 20px;
+
+            .content {
+                border: none;
+                background: none;
+                outline: none;
+                padding: 0;
+                color: #404040;
+                font-size: 16px;
+                transition: 0.4s;
+                line-height: 20px;
+                width: 100%;
+            }
         }
 
         div.followingArtist {
