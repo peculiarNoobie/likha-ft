@@ -108,6 +108,7 @@ export default {
     .right{
         top:0;
         padding: 0px 390px;
+            
 
 
     }
