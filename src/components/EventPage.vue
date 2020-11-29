@@ -7,11 +7,34 @@
 
         <!-- Stream Side -->
         <div class="left">
+            
+            <!-- Live Screen -->
             <div id="screen">
                 <img src="../assets/blackScreen.jpg" alt="sample screen" width="960" height="540">
             </div>
+
+            <!-- Live Details -->
             <div class="details">
-                <p>something</p>
+                <div id="liveTitle">
+                        <h3>Event Title</h3>
+                </div>
+
+                <!-- Left Side -->
+                <div id="artistProfile">
+                    <div id="artistLogo">
+                        <img src="/logo" alt="logo">
+                    </div>
+                    <div id="artistInfo">
+                        <p>Artist Name</p>
+                        <p>Other Deets</p>
+                    </div>
+                </div>
+                
+                <!-- Right Side -->
+                <div id="iconStuff">
+                    <p>Views</p>
+                    <p>Share</p>
+                </div>
             </div>
         </div>
 
@@ -55,6 +78,30 @@
         .left{
             float: left;
             min-width: 70%;
+
+            .details{
+                display: inline-block;
+                min-width: 100%;
+
+                #artistProfile{
+                    width: 50%;
+                    display: inline-block;
+                    
+                    #artistLogo{
+                        width: 10%;
+                        float: left;
+                    }
+                    #artistInfo{
+                        width: 90%;
+                        float: right;
+                    }
+                }
+
+                #iconStuff{
+                    width: 50%;
+                    float: right;
+                }
+            }
         }
 
         .liveChat{
