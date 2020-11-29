@@ -11,6 +11,7 @@
                 <img src="../assets/blackScreen.jpg" alt="sample screen" width="960" height="540">
             </div>
             <div class="details">
+                <p>something</p>
             </div>
         </div>
 
@@ -45,24 +46,22 @@
         margin: 30px 60px 0px 60px;
     }
     
-    .liveSteam{
-        margin-bottom: 60px;
+    .liveStream{
         display: inline-block;
+        margin-bottom: 40px;
+        width: 100%;
+        min-height: 540px;
 
         .left{
-            position: absolute;
-            width: 960px;
-            height: 540px;
-            left: 194px;
-            top: 176px;
+            float: left;
+            min-width: 70%;
         }
 
         .liveChat{
-            position: absolute;
-            width: 536px;
-            height: 540px;
-            left: 1256px;
-            top: 176px;
+            float: right;
+            min-width: 30%;
+
+            color: black;
         }
 
     }
