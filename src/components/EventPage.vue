@@ -10,7 +10,7 @@
             
             <!-- Live Screen -->
             <div id="screen">
-                <img src="../assets/blackScreen.jpg" alt="sample screen" width="960" height="540">
+                <img src="../assets/blackScreen.jpg" alt="sample screen" width="100%" height="540">
             </div>
 
             <!-- Live Details -->
@@ -32,8 +32,10 @@
                 
                 <!-- Right Side -->
                 <div id="iconStuff">
-                    <p>Views</p>
-                    <p>Share</p>
+                    <div id="inner">
+                        <p>Views</p>
+                        <p>Share</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -46,12 +48,30 @@
 
     <!-- Merch Area -->
     <div class="merch">
+
+        <!-- Title -->
         <div class="title">
-        <div class="item">
-            <img src="/assets/" alt="shirt">
-            <p>Item Name</p>
-            <p>Price</p>
+            <h2>Merhandise</h2>
         </div>
+
+        <!-- Row -->
+        <div class="row">
+            <!-- One Product Card -->
+            <div class="card">
+                <div class="item">
+                    <img src="/assets/" alt="shirt">
+                    <p>Item Name</p>
+                    <p>Price</p>
+                </div>
+            </div>
+            <!-- One Product Card -->
+            <div class="card">
+                <div class="item">
+                    <img src="/assets/" alt="shirt">
+                    <p>Item Name</p>
+                    <p>Price</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -67,6 +87,7 @@
     
     .eventPage{
         margin: 30px 60px 0px 60px;
+        height: 1000px;
     }
     
     .liveStream{
@@ -100,6 +121,10 @@
                 #iconStuff{
                     width: 50%;
                     float: right;
+                    
+                    #inner{
+                        float: right;
+                    }
                 }
             }
         }
@@ -111,6 +136,25 @@
             color: black;
         }
 
+    }
+
+    .merch{
+        width: 100%;
+
+        .row{
+            display: inline;
+        
+            .card{
+                width: 30%;
+                border: 1px solid;
+                padding: 10px;
+                box-shadow: 5px 10px;
+
+                .item{
+                    
+                }
+            }
+        }
     }
 
 </style>
