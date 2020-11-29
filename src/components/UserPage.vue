@@ -10,8 +10,9 @@
             </div>
         </div>
         <div class="right">
-            <div class="followingArtist">
+            <div class="textfollowingart">
                 <h2>Following Artists</h2>
+            <div class="followingArtist">
                 <div class="container">
                     <div class="top-1">
                         <h3>Ben and Ben</h3>
@@ -41,31 +42,32 @@
                 </div>
 
             </div>
+            </div>
 
             <div class="post">
                 <h2>My Posts</h2>
-                <div class="containr-1">
+                <div class="containr">
                     <div class="top-1">
                         <h3>Art 1</h3>
                     </div>
                     <img class="class-image" src="../assets/Artist1.jpg" />
                 </div>
 
-                <div class="containr-2">
+                <div class="containr">
                     <div class="top-2">
                         <h2>Art 1</h2>
                     </div>
                     <img class="class-image" src="../assets/Artist1.jpg" />
                 </div>
 
-                <div class="containr-3">
+                <div class="containr">
                     <div class="top-3">
                         <h2>Art 1</h2>
                     </div>
                     <img class="class-image" src="../assets/Artist1.jpg" />
                 </div>
 
-                <div class="containr-4">
+                <div class="containr">
                     <div class="top-4">
                         <h2>Art 1</h2>
                     </div>
@@ -101,9 +103,10 @@ export default {
         text-align: center;
         left:20px;
         .profile{
-            padding:3px;
+            padding: 50px 3px;
             
             .profilePic{
+                width: 70%;
                 border-radius: 100%;
                 padding:20px 0 20px;
             }
@@ -114,10 +117,16 @@ export default {
     .right{
         top:0;
         margin-left: 25% ;
+
+        .textfollowingart{
+            padding: 30px;
+        }
+
         div.followingArtist {
             position:relative;   
             overflow-x: scroll;
             white-space: nowrap;
+            padding: 0px 30px;
 
 
             .container {
@@ -128,6 +137,8 @@ export default {
                 img{
                     width: 300px;
                     height: 200px;
+                    min-width: 100%;
+                    min-height: 100%;
                     .class-image{
                         display: flex;
                         flex-wrap: wrap;
@@ -136,6 +147,13 @@ export default {
             }
 
 
+        }
+        .post{
+            padding: 10px 50px;
+            .containr{
+                text-align: center;
+            }    
+                
         }
 
 
