@@ -151,7 +151,7 @@
                 box-shadow: 5px 10px;
 
                 .item{
-                    
+                    width: 100%;
                 }
             }
         }
