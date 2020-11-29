@@ -72,6 +72,22 @@
                     <p>Price</p>
                 </div>
             </div>
+            <!-- One Product Card -->
+            <div class="card">
+                <div class="item">
+                    <img src="/assets/" alt="shirt">
+                    <p>Item Name</p>
+                    <p>Price</p>
+                </div>
+            </div>
+            <!-- One Product Card -->
+            <div class="card">
+                <div class="item">
+                    <img src="/assets/" alt="shirt">
+                    <p>Item Name</p>
+                    <p>Price</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -98,7 +114,7 @@
 
         .left{
             float: left;
-            min-width: 70%;
+            width: 70%;
 
             .details{
                 display: inline-block;
@@ -131,7 +147,7 @@
 
         .liveChat{
             float: right;
-            min-width: 30%;
+            width: 30%;
 
             color: black;
         }
@@ -142,10 +158,11 @@
         width: 100%;
 
         .row{
-            display: inline;
+            display: flex;
+            justify-content: space-between;
         
             .card{
-                width: 30%;
+                width: 23%;
                 border: 1px solid;
                 padding: 10px;
                 box-shadow: 5px 10px;
