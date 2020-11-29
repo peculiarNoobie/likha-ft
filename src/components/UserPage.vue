@@ -55,31 +55,31 @@
                 </form>
                 </div>
                 <div class="containr">
+                    <img class="class-image" src="../assets/Art1.jpg" />
                     <div class="top-1">
-                        <h3>Art 1</h3>
+                        <h2>Art 1</h2>
                     </div>
-                    <img class="class-image" src="../assets/Artist1.jpg" />
                 </div>
 
                 <div class="containr">
+                    <img class="class-image" src="../assets/Art2.jpg" />
                     <div class="top-2">
-                        <h2>Art 1</h2>
-                    </div>
-                    <img class="class-image" src="../assets/Artist1.jpg" />
+                        <h2>Art 2</h2>
+                    </div>                
                 </div>
 
                 <div class="containr">
-                    <div class="top-3">
-                        <h2>Art 1</h2>
-                    </div>
-                    <img class="class-image" src="../assets/Artist1.jpg" />
+                    <img class="class-image" src="../assets/Art3.jpg" />
+                    <div class="top-2">
+                        <h2>Art 3</h2>
+                    </div>                
                 </div>
 
                 <div class="containr">
+                    <img class="class-image" src="../assets/Art4.jpg" />
                     <div class="top-4">
-                        <h2>Art 1</h2>
-                    </div>
-                    <img class="class-image" src="../assets/Artist1.jpg" />
+                        <h2>Art 4</h2>
+                    </div>                
                 </div>
 
             </div>
@@ -183,7 +183,13 @@ export default {
         .post{
             padding: 10px 50px;
             .containr{
-                text-align: center;
+                padding: 0px 200px 30px;
+                
+                img{
+                    align-content: center;
+                    width: 600px;
+                    min-width: 50%;
+                }
             }    
                 
         }
