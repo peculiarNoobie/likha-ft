@@ -87,12 +87,22 @@ export default {
     }
 
     .left{
-        position: fixed;
+        margin-top: 80px;
+        position: absolute;
         height: 100%;
-        z-index: 1;
         top: 0;
-        width: 25%;
+        width: 20%;
         left: 0;
-        background-color: #fbf9fa;
+        background-color: black;
+    }
+
+    .right{
+        margin-top: 80px;
+        position:absolute;
+        height: 100%;
+        top:0;
+        margin-left: 20%;
+        background-color: black;
+        
     }
 </style>
