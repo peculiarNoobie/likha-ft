@@ -87,12 +87,29 @@ export default {
     }
 
     .left{
-        position: fixed;
+        margin-top: 80px;
+        position: absolute;
         height: 100%;
-        z-index: 1;
         top: 0;
-        width: 25%;
-        left: 0;
-        background-color: #fbf9fa;
+        width: 20%;
+        text-align: center;
+        left:20px;
+        .profile{
+            padding:3px;
+            
+            .profilePic{
+                border-radius: 100%;
+                padding:20px 0 20px;
+            }
+
+        }
+    }
+
+    .right{
+        top:0;
+        padding: 0px 390px;
+            
+
+
     }
 </style>
